@@ -1,12 +1,18 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
+import Section from './components/Section/Section';
+import Footer from "./components/Footer/Footer";
 
-// import * as styles from './app.css'; case1
-import styles from './App.css';
 
 const App = () => {
-  return <div className={styles.main} data-testid="app"> My First React App </div>;
+  return (
+    <Router>
+      <Header />
+      <Section />
+      <Footer />
+    </Router>
+  );
 };
 
 export default App;
-
-// export { App };

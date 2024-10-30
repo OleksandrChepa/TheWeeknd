@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-width: 1200px;
+    margin: 16px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 16px 32px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #48d9f3;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    margin-top: -20px;
+}
+
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+h1 {
+    margin: 0;
+    color: #48d9f3;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    color: #82c2ce;
+    font-size: 14px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav a {
+    color: #48d9f3;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #82c2ce;
+}
+
+.loginButton {
+    background-color: #48d9f3;
+    color: #000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.loginButton:hover {
+    background-color: #82c2ce;
+    transform: scale(1.1);
+}
+
+.instagramIcon {
+    margin-top: 7px;
+    margin-right: 10px;
+    filter: saturate(100%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(96%) contrast(95%);
+    width: 31px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.instagramLink:hover .instagramIcon {
+    filter: saturate(80%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(75%) contrast(75%);
+    transform: scale(1.1);
+}
+
+.twitterIcon {
+    margin-top: 7px;
+    margin-right: 10px;
+    filter: saturate(100%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(96%) contrast(95%);
+    width: 33px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.twitterLink:hover .twitterIcon {
+    filter: saturate(80%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(75%) contrast(75%);
+    transform: scale(1.1);
+}
+
+.facebookIcon {
+    margin-top: 7px;
+    margin-right: 13px;
+    filter: saturate(100%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(96%) contrast(95%);
+    width: 20px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.facebookLink:hover .facebookIcon {
+    filter: saturate(80%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(75%) contrast(75%);
+    transform: scale(1.1);
+}
+
+.envelopeIcon {
+    margin-top: 7px;
+    margin-right: 13px;
+    filter: saturate(100%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(96%) contrast(95%);
+    width: 35px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.envelopeLink:hover .envelopeIcon {
+    filter: saturate(80%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(75%) contrast(75%);
+    transform: scale(1.1);
+}

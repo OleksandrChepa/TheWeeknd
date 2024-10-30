@@ -1,0 +1,21 @@
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 24px auto 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.link {
+    color: #48d9f3;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
