@@ -1,11 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './Section.module.css';
 
 const Section = () => {
+  const navigate = useNavigate();
+
   const banners = [
     {
       image: '/image/HistoryBaner.png',
       text: 'HISTORY',
+      path: '/History',
     },
     {
       image: '/image/SongsBaner.png',
@@ -17,8 +21,12 @@ const Section = () => {
     },
   ];
 
-  const handleBannerClick = (text) => {
-    console.log(`${text} banner clicked`);
+  const handleBannerClick = (path) => {
+    if (path !== '#') {
+      navigate(path);
+    } else {
+      console.log('This page is not yet available');
+    }
   };
 
   return (
@@ -27,7 +35,7 @@ const Section = () => {
         <div
           key={index}
           className={styles.banner}
-          onClick={() => handleBannerClick(banner.text)}
+          onClick={() => handleBannerClick(banner.path)}
           role="button"
           tabIndex={0}
         >

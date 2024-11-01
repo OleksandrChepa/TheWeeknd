@@ -1,13 +1,14 @@
 .footer {
     color: white;
     text-align: center;
-    padding: 20px 0;
-    margin: 24px auto 0 auto;
+    padding: 10px 0;
+    margin: 12px auto 0 auto;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+
+    max-width: 300px;
+    margin-left: 200px;
 }
 
 .link {

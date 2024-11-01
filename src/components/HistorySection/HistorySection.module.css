@@ -1,0 +1,56 @@
+.biographyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    height: 425px;
+    border: 1px solid #48d9f3;
+    overflow: hidden;
+}
+
+.biographyText {
+    flex: 1;
+    color: white;
+    padding-right: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #48d9f3 #1a1a1a;
+    height: 100%;
+}
+
+.biographyText::-webkit-scrollbar {
+    width: 8px;
+}
+
+.biographyText::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.biographyText::-webkit-scrollbar-thumb {
+    background-color: #48d9f3;
+    border-radius: 10px;
+}
+
+.biographyText::-webkit-scrollbar-thumb:hover {
+    background-color: #36a5d1;
+}
+
+.biographyImage {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #48d9f3;
+}
