@@ -7,20 +7,21 @@ import History from "./pages/History";
 import Songs from "./pages/Songs";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import Profile from "./pages/Profile";
 
 const AppContent = () => {
   const location = useLocation();
 
   return (
     <>
-
-      {location.pathname !== "/history" && location.pathname !== "/songs" &&  location.pathname !== "/login" && location.pathname !== "/register" && <Header />}
+      {location.pathname !== "/history" && location.pathname !== "/songs" && location.pathname !== "/login" && location.pathname !== "/register" && location.pathname !== "/profile" && <Header />}
       <Routes>
         <Route path="/" element={<><Section /><Footer /></>} />
         <Route path="/history" element={<History />} />
         <Route path="/songs" element={<Songs />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );

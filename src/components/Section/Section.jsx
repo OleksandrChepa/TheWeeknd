@@ -19,7 +19,7 @@ const Section = () => {
     {
       image: '/image/ReviewsBaner.png',
       text: 'PROFILE',
-      path: '#',
+      path: '/profile',
     },
   ];
 

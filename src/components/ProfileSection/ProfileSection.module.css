@@ -1,0 +1,89 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 1px solid #48d9f3;
+    color: white;
+    height: 300px;
+}
+
+.profileContent {
+    display: flex;
+    width: 100%;
+}
+
+.avatarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #48d9f3;
+    margin-bottom: 10px;
+}
+
+.avatarButton, .changeButton {
+    background-color: #48d9f3;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.avatarButton {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.changeButton {
+    width: 120px;
+    margin-left: 10px;
+}
+
+.avatarButton:hover, .changeButton:hover {
+    transform: scale(1.05);
+}
+
+.profileInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.inputField {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.inputField label {
+    margin-right: 10px;
+    color: #48d9f3;
+    min-width: 80px;
+}
+
+.exampleText {
+    color: white;
+    padding: 8px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    width: calc(100% - 150px);
+    text-align: left;
+}
