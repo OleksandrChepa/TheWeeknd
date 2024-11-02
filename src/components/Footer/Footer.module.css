@@ -1,8 +1,8 @@
 .footer {
     color: white;
     text-align: center;
-    padding: 10px 0;
-    margin: 12px auto 0 auto;
+    padding: 5px;
+    margin: 3px auto 0 auto;
 }
 
 .container {
@@ -13,7 +13,7 @@
 
 .link {
     color: #48d9f3;
-    margin: 0 10px;
+    margin: 10px;
     text-decoration: none;
 }
 

@@ -10,7 +10,7 @@ const PagesHeader = ({ title, subTitle }) => {
   const links = [
     { name: 'HISTORY', path: '/history' },
     { name: 'SONGS', path: '/songs' },
-    { name: 'REVIEWS', path: '/reviews' },
+    { name: 'PROFILE', path: '/profile' },
     { name: 'HOME', path: '/' },
   ];
 

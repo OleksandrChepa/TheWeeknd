@@ -1,0 +1,64 @@
+.registerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: #0d0d0d url("/public/image/background.png") no-repeat center center;
+    background-size: cover;
+}
+
+.registerBox {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 32px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.inputGroup {
+    position: relative;
+    margin: 16px 0;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 8px 40px 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    filter: saturate(100%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(96%) contrast(95%);
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1557bf;
+}
+
+p {
+    margin: 16px 0;
+    font-size: 14px;
+    color: #fff;
+}

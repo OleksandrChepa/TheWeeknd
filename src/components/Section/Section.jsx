@@ -18,7 +18,7 @@ const Section = () => {
     },
     {
       image: '/image/ReviewsBaner.png',
-      text: 'REVIEWS',
+      text: 'PROFILE',
       path: '#',
     },
   ];

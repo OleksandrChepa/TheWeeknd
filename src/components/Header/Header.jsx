@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import styles from './Header.module.css';
 
@@ -26,7 +27,9 @@ const Header = ({ title, subTitle, }) => {
         <a href="https://www.instagram.com/theweeknd" target="_blank" rel="noopener noreferrer" className={styles.instagramLink}>
           <img src="/image/InstagramIcon.png" alt="Instagram" className={styles.instagramIcon} />
         </a>
-        <button className={styles.loginButton}>Login</button>
+        <Link to="/login">
+          <button className={styles.loginButton}>Login</button>
+        </Link>
       </nav>
     </header>
   );
