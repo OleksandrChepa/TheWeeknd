@@ -36,15 +36,15 @@ const HistorySection = () => {
   `;
 
   return (
-    <div className={styles.biographyContainer}>
-      <div className={styles.biographyText}>
+    <div className={styles.historyContainer}>
+      <div className={styles.historyText}>
         {text.split('\n').map((line, index) => (
           <p key={index} className={line.includes('The Weeknd') ? styles.highlight : ''}>
             {line.trim()}
           </p>
         ))}
       </div>
-      <img src="/image/HistoryFoto.jpg" alt="The Weeknd" className={styles.biographyImage} />
+      <img src="/image/HistoryFoto.jpg" alt="The Weeknd" className={styles.historyImage} />
     </div>
   );
 };

@@ -1,16 +1,16 @@
 import React from 'react';
 import PagesHeader from "../components/PagesHeader/PagesHeader";
-import HistorySection from "../components/HistorySection/HistorySection";
+import SongsSection from "../components/SongsSection/SongsSection";
 import Footer from "../components/Footer/Footer";
 
-const History = () => {
+const Songs = () => {
   return (
     <>
       <PagesHeader />
-      <HistorySection />
+      <SongsSection />
       <Footer />
     </>
   );
 };
 
-export default History;
+export default Songs;

@@ -9,15 +9,17 @@ const Section = () => {
     {
       image: '/image/HistoryBaner.png',
       text: 'HISTORY',
-      path: '/History',
+      path: '/history',
     },
     {
       image: '/image/SongsBaner.png',
       text: 'SONGS',
+      path: '/songs',
     },
     {
       image: '/image/ReviewsBaner.png',
       text: 'REVIEWS',
+      path: '#',
     },
   ];
 

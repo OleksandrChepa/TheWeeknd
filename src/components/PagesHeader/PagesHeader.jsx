@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import styles from './HistoryHeader.module.css';
+import styles from './PagesHeader.module.css';
 
-const HistoryHeader = ({ title, subTitle }) => {
+const PagesHeader = ({ title, subTitle }) => {
   const logo = "/image/logoo.png";
   const location = useLocation();
 
@@ -51,9 +51,9 @@ const HistoryHeader = ({ title, subTitle }) => {
   );
 };
 
-HistoryHeader.propTypes = {
+PagesHeader.propTypes = {
   title: PropTypes.string,
   subTitle: PropTypes.string,
 };
 
-export default HistoryHeader;
+export default PagesHeader;
