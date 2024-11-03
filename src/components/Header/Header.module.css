@@ -133,3 +133,10 @@ p {
     filter: saturate(80%) invert(69%) sepia(92%) saturate(323%) hue-rotate(150deg) brightness(75%) contrast(75%);
     transform: scale(1.1);
 }
+
+.avatarIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
